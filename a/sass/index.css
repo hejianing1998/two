@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0; }
+
+body, html {
+  height: 100%; }
+
+.head {
+  width: 100%;
+  height: 1.22rem; }
+  .head img {
+    width: 100%;
+    height: 100%; }
+
+.content {
+  overflow: auto; }
+  .content .content-tp {
+    width: 100%;
+    height: 100%;
+    border-bottom: 0.2rem solid #f4f4f4; }
+    .content .content-tp .ss {
+      padding-top: .04rem;
+      padding-bottom: .2rem;
+      width: 7.16rem;
+      height: 100%;
+      margin: 0 auto; }
+      .content .content-tp .ss input {
+        width: 5.74rem;
+        height: .7rem;
+        border: .02rem solid #39c894;
+        font-size: .28rem;
+        color: #aaaaaa; }
+      .content .content-tp .ss button {
+        width: 1.38rem;
+        height: .74rem;
+        color: white;
+        font-size: .28rem;
+        border: none;
+        background: #39c894; }
+  .content .content-xxk {
+    width: 100%;
+    height: 100%; }
+    .content .content-xxk .xxk {
+      width: 100%;
+      height: .77rem; }
+      .content .content-xxk .xxk ul {
+        list-style: none; }
+        .content .content-xxk .xxk ul li {
+          text-align: center;
+          line-height: .75rem;
+          margin-left: .14rem;
+          float: left;
+          width: 2.3rem;
+          height: .75rem;
+          font-size: .28rem; }
+        .content .content-xxk .xxk ul li:hover {
+          border-bottom: .02rem solid #39c894; }
+    .content .content-xxk .xxknr {
+      width: 100%;
+      height: 2.2rem;
+      margin-top: .36rem;
+      border-bottom: 0.2rem solid #f4f4f4; }
+      .content .content-xxk .xxknr figure {
+        margin-left: 0.28rem;
+        width: 1.4rem;
+        height: 1.6rem;
+        float: left;
+        text-align: center; }
+        .content .content-xxk .xxknr figure img {
+          width: 1.05rem;
+          height: 1.05rem; }
+        .content .content-xxk .xxknr figure figcaption {
+          margin-top: .32rem;
+          font-size: .28rem; }
+      .content .content-xxk .xxknr figure:nth-child(2) {
+        margin-left: 0.45rem; }
+      .content .content-xxk .xxknr figure:nth-child(3) {
+        margin-left: 0.45rem; }
+      .content .content-xxk .xxknr figure:nth-child(4) {
+        margin-left: 0.45rem; }
+    .content .content-xxk .gd {
+      margin: 0 auto;
+      width: 7.16rem;
+      height: .7rme;
+      font-size: .28rem;
+      text-align: center;
+      line-height: .7rem;
+      border: .02rem solid #3ac994; }
+  .content .content-gonglue {
+    width: 100%;
+    border-bottom: 0.2rem solid #f4f4f4; }
+    .content .content-gonglue .shejishi {
+      margin: 0.32rem 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 0.42rem;
+      border-left: 0.05rem solid #3ac994; }
+      .content .content-gonglue .shejishi .span1 {
+        padding-left: 0.12rem;
+        padding-right: 0.22rem;
+        font-size: 0.36rem;
+        color: #000000; }
+    .content .content-gonglue .tuwen-top figure {
+      width: 7.13rem;
+      height: 1.46rem;
+      display: flex;
+      justify-content: space-between; }
+      .content .content-gonglue .tuwen-top figure img {
+        width: 1.9rem;
+        height: 1.45rem; }
+      .content .content-gonglue .tuwen-top figure figcaption {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 4.96rem;
+        height: 1.44rem; }
+        .content .content-gonglue .tuwen-top figure figcaption .g-1 {
+          font-size: 0.36rem;
+          color: #000;
+          width: 4.96rem;
+          height: 0.92rem; }
+        .content .content-gonglue .tuwen-top figure figcaption .g-2 {
+          display: flex;
+          width: 3.83rem;
+          height: 0.3rem; }
+          .content .content-gonglue .tuwen-top figure figcaption .g-2 span {
+            color: #999;
+            font-size: 0.27rem; }
+          .content .content-gonglue .tuwen-top figure figcaption .g-2 .span1 {
+            margin-right: 0.12rem;
+            font-size: 0.28rem; }
+            .content .content-gonglue .tuwen-top figure figcaption .g-2 .span1 img {
+              width: .28rem;
+              height: .28rem; }
+          .content .content-gonglue .tuwen-top figure figcaption .g-2 .span3 {
+            margin-left: 0.75rem;
+            margin-right: 0.12rem;
+            font-size: 0.28rem; }
+            .content .content-gonglue .tuwen-top figure figcaption .g-2 .span3 img {
+              width: .28rem;
+              height: .28rem; }
+    .content .content-gonglue .top1 {
+      padding-bottom: 0.32rem; }
+    .content .content-gonglue .top2 {
+      padding-bottom: 0.32rem;
+      padding-top: 0.32rem;
+      border-bottom: 0.01rem solid #ececec;
+      border-top: 0.01rem solid #ECECEC; }
+    .content .content-gonglue .top3 {
+      padding-top: 0.32rem; }
+    .content .content-gonglue .gongdi-huan {
+      margin: 0.36rem auto;
+      width: 7.15rem;
+      height: .7rem;
+      display: flex; }
+      .content .content-gonglue .gongdi-huan p {
+        width: 100%;
+        height: 100%;
+        border: .01rem solid #ececec;
+        text-align: center;
+        margin-top: .2rem; }
+        .content .content-gonglue .gongdi-huan p .span1 {
+          display: inline-block;
+          height: .28rem;
+          font-size: .28rem;
+          color: #39c893;
+          margin-top: .2rem; }
+        .content .content-gonglue .gongdi-huan p .span2 {
+          margin-left: .06rem;
+          display: inline-block;
+          width: .3rem;
+          height: .3rem; }
+          .content .content-gonglue .gongdi-huan p .span2 img {
+            width: .3rem;
+            height: .3rem; }
+  .content .wwen {
+    border-bottom: 0.2rem solid #f4f4f4;
+    width: 7.5rem;
+    height: 2.45rem;
+    display: flex;
+    align-items: center; }
+    .content .wwen .wen {
+      line-height: 0.43rem;
+      margin: 0 auto;
+      text-indent: 2em;
+      margin: 0 auto;
+      display: flex;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      width: 6.9rem;
+      height: 1.75rem;
+      font-size: 0.25rem;
+      color: #333; }
+
+footer {
+  width: 100%;
+  height: 1.96rem; }
+  footer .wen {
+    margin-top: 0.38rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 0.9rem; }
+    footer .wen .span1 {
+      color: #39C893;
+      font-size: 0.38rem; }
+    footer .wen span {
+      font-size: 0.28rem;
+      color: #333333; }
+    footer .wen .wenzi {
+      display: flex;
+      width: 100%;
+      height: 0.3rem; }
+      footer .wen .wenzi p {
+        width: 25%;
+        font-size: 0.3rem;
+        text-align: center; }
+  footer img {
+    width: 100%;
+    height: 1.85rem; }
+
+/*# sourceMappingURL=index.css.map */

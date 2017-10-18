@@ -1,0 +1,288 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;font-size: 0;}
+@mixin tanld{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body,html{
+    height: 100%; 
+}
+header{
+    @include tanld;
+    width: 100%;
+    height: 1.02rem;
+    .sp1{
+        display: inline-block;
+        width: 2.12rem;
+        height: .7rem;
+        margin-left: .18rem;
+        margin-top: .16rem;
+        margin-bottom: .16rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .sp2{
+        display: inline-block;
+        width: 1.44rem;
+        font-size: 0.36rem;
+    }
+    .sp3{
+        display: inline-block;
+        width: 1.5rem;
+        height: .7rem;
+        margin-left: 0.2rem;
+        a{
+            width: .45rem;
+            height: .78rem;
+            figure{
+                width: .45rem;
+                height: .78rem;
+                float: left;
+                text-align: center;
+                line-height: .2rem;
+                overflow: hidden;
+                img{
+                    width: 0.45rem;
+                    height: 0.45rem;
+                    color: #999;
+                    font-size: 0.45rem;
+                }
+                figcaption{
+                    color: #999;
+                    font-size: .22rem;
+                }
+            }
+        }
+    }
+}
+.content{
+//  flex-grow: 1;
+    overflow: auto;
+    .process1{
+        width: 100%;
+        height: 2.5rem;
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+    }
+    .process2{
+        width: 100%;
+        height: 8.56rem;
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+        .wz1{
+            width: 1.8rem;
+            font-size: .36rem;
+            color: #ff4351;
+            position: absolute;
+            top: .56rem;
+            left: 1.16rem;
+            z-index: 20;
+        }
+        .wz2{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 1.98rem;
+            left: 1.88rem;
+            z-index: 20;
+        }
+        .wz3{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 3.54rem;
+            left: 3.75rem;
+            z-index: 20;
+        }
+        .wz4{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 5.1rem;
+            left: 1.86rem;
+            z-index: 20;
+        }
+        .wz5{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 6.66rem;
+            left: 3.75rem;
+            z-index: 20;
+        }
+    }
+    .process3{
+        width: 100%;
+        height: 8.92rem;
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+        .wz6{
+            width: 1.8rem;
+            font-size: .36rem;
+            color: #1b9bf7;
+            position: absolute;
+            top: .52rem;
+            left: 4.8rem;
+            z-index: 20;
+        }
+        .wz7{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 2rem;
+            left: 3.75rem;
+            z-index: 20;
+        }
+        .wz8{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 3.7rem;
+            left: 1.86rem;
+            z-index: 20;
+        }
+        .wz9{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 5.25rem;
+            left: 3.75rem;
+            z-index: 20;
+        }
+        .wz10{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 6.84rem;
+            left: 1.86rem;
+            z-index: 20;
+        }
+    }
+    .process4{
+        width: 100%;
+        height: 9rem;
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+        }
+        .wz11{
+            width: 1.8rem;
+            font-size: .36rem;
+            color: #7a73e8;
+            position: absolute;
+            top: .4rem;
+            left: 1.16rem;
+            z-index: 20;
+        }
+        .wz12{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 1.84rem;
+            left: 1.88rem;
+            z-index: 20;
+        }
+        .wz13{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 3.26rem;
+            left: 3.75rem;
+            z-index: 20;
+        }
+        .wz14{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 4.8rem;
+            left: 1.86rem;
+            z-index: 20;
+        }
+        .wz15{
+            width: 2rem;
+            font-size: .28rem;
+            color: #000;
+            position: absolute;
+            top: 6.26rem;
+            left: 3.75rem;
+            z-index: 20;
+        }
+    }
+    .wwen{
+         border-bottom: 0.2rem solid #f4f4f4;
+         width: 7.5rem;
+         height: 2.45rem;
+         display: flex;
+         align-items: center;
+         .wen{
+             line-height: 0.43rem;
+             margin: 0 auto;
+             text-indent: 2em;
+             margin: 0 auto;
+             display: flex;
+             padding-left: 0.1rem;
+             padding-right: 0.1rem;
+             width: 6.9rem;
+             height: 1.75rem;
+             font-size: 0.25rem;
+             color: #333;
+         }
+     }
+}
+footer{
+         width: 100%;
+         height: 1.96rem; 
+         .wen{
+             margin-top: 0.38rem;
+             display: flex;
+             justify-content: space-between;
+             flex-direction: column;
+             align-items: center;
+             width: 100%;
+             height: 0.9rem;
+             .span1{color: #39C893;font-size: 0.38rem;}
+             span{font-size: 0.28rem; color:#333333;};
+             .wenzi{
+                 display: flex;
+                 width: 100%;
+                 height: 0.3rem;
+                 p{width: 25%;font-size: 0.3rem;text-align: center;}
+             }
+         }  
+         img{
+             width: 100%;
+             height: 1.85rem;
+         }   
+        } 
